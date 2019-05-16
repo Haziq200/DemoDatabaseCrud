@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID:" />
+
+    <TextView
+        android:id="@+id/textViewContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Content:" />
+
+    <EditText
+        android:id="@+id/etContent2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPDATE" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELETE" />
+</LinearLayout>
